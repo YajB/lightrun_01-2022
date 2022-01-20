@@ -31,6 +31,7 @@ For example, the use case of an agent launched on an AWS Lambda function
  
 This topic defines the persistence of actions added to agents and tags.
 
+|Applied to| Action persistence|
 |--|--|
 |Agents| The action is deleted after the agent disconnects from the Lightrun server|
 |Tags| Actions applied to tags are persistent|
