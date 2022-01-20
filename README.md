@@ -8,7 +8,7 @@ lightrun project notes:
 
 ### Product summary
 Lightrun: Developer-centric observability platform
-Configure the Lightrun agent component to add Lightrun actions at run time..
+Configure the Lightrun agent component to add Lightrun actions at run time.
 Add your logs, metrics, and traces.
 Gain on-demand observability in real-time when you run your application code, without the need for hotfixes, restarts, or redeployment.
  
