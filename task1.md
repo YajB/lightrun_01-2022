@@ -2,8 +2,8 @@
 
 A Lightrun action is a snapshot, dynamic log, or metric that you add to specific lines within the source code for your application to capture instantaneous parameter values when your code executes.
 
-When you add an action, a request to the agent is triggered. 
-After the agent verifies the request, it adds the relevant instrumentation to the running application, without interrupting services.
+When you add an action, that triggers a request to the agent. 
+After the agent verifies the request, it adds the relevant instrumentation to the application without interrupting services.
 
 ## Lightrun agents
 
@@ -33,7 +33,7 @@ You can apply multiple tags to your Lightrun agents, then use the tags to:
 * Consistently apply a Lightrun action to a group of short-lived agents. 
   
 **Example** 
-For your AWS Lambda function services that run code for specific triggering events, to ensure that the relevant Lightrun actions are added each time the services run, associate these actions with a tag, rather than associating the actions directly to the agents. 
+For your AWS Lambda function services that run code for specific triggering events, to ensure that the relevant Lightrun actions are added each time the services run, associate these actions with a tag, rather than associating the actions with agents. 
 
-If you add the actions to the agent, they're going to be deleted each time the agent disconnects from the server.
+If you add the actions to an agent, they're going to be deleted each time the agent disconnects from the server.
 
