@@ -1,5 +1,5 @@
 
-
+Lightrun is a developer-native observability platform. With Lightrun you to add logs, snapshots (virtual breakpoints), and metrics to production applications without the need for redeployments or restarts. You can use Lightrun directly from your IDE or CLI to observe, understand and debug your application at runtime.
 
 
 lightrun project notes: 
@@ -8,7 +8,7 @@ lightrun project notes:
 
 ### Product summary
 Lightrun: Developer-centric observability platform
-Configure the Lightrun agent component to add Lightrun actions at run time..
+Configure the Lightrun agent component to add Lightrun actions at run time.
 Add your logs, metrics, and traces.
 Gain on-demand observability in real-time when you run your application code, without the need for hotfixes, restarts, or redeployment.
  
@@ -31,6 +31,7 @@ For example, the use case of an agent launched on an AWS Lambda function
  
 This topic defines the persistence of actions added to agents and tags.
 
+|Applied to| Action persistence|
 |--|--|
 |Agents| The action is deleted after the agent disconnects from the Lightrun server|
 |Tags| Actions applied to tags are persistent|
