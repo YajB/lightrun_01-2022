@@ -1,3 +1,4 @@
+#Lightrun entities
 # Overview of Lightrun entities
 
 A Lightrun action is a snapshot, dynamic log, or metric that you add to specific lines within the source code for your application to capture instantaneous parameter values when your code executes.
