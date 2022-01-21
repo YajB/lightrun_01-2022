@@ -5,6 +5,7 @@ A Lightrun action is a snapshot, dynamic log, or metric that you add to specific
 When you add an action, that triggers a request to the agent. 
 After the agent verifies the request, it adds the relevant instrumentation to the application without interrupting services.
 
+
 ## Lightrun agents
 
 You can configure and use Lightrun agents to add specific Lightrun actions to your application, without having to apply hotfixes, restart, or redeploy any of the applications or components in your environment: The agent runs as an additional thread alongside your applications. 
@@ -17,8 +18,11 @@ The following Lightrun agents are available for your environment:
 
 ## Lightrun tags
 
-Lightrun tags are used to group agents together into logical categories. 
-Create tags to group your agents by region, environment, or by other criteria that are relevant for your organization. 
+Lightrun tags are used to group agents together into logical categories, usually based on common functionality.
+Use tags to group your agents by region, environment, purpose, or by any criteria that are relevant for your organization. 
+
+When you apply multiple tags, you can associate actions with an agent before it launches
+
 
 ### Lightrun action and tag properties
 
