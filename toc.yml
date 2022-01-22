@@ -9,8 +9,8 @@
 
 firstLevel:
 
-  # ===== USER GUIDE =====
-  # These docs are generally in the /user-guide folder
+  # ===== placeholder=====
+  # These docs are generally in the /docs folder
 - title: Lightrun writing task
   icon: fas fa-bolt
 
