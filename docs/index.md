@@ -23,7 +23,7 @@ Lightrun tags are used to group agents together into logical categories, usually
 
 You can use tags to group your agents by region, environment, purpose, or by any criteria that are relevant for your organization. The default tag for a Lightrun agent is `Production`.
 
-When you apply multiple tags, you can associate actions with an agent before it launches
+When you apply multiple tags, you can associate actions with an agent before it launches.
 
 ### Lightrun actions and tag properties
 
@@ -37,8 +37,7 @@ You can apply multiple tags to your Lightrun agents, then use the tags to:
 * Associate Lightrun actions to a group of agents labeled with a specific tag.
 * Consistently apply a Lightrun action to a group of short-lived agents. 
     
-    **Example** 
-
+    **Example** <br>
     If you use serverless AWS Lambda function services to manage runtime costs, for code that only runs for specific triggering events, you can use tags to ensure that Lightrun actions are added to your code each time the services run. 
 
     Associate the Lightrun actions you want to add with a tag: This ensures that the relevant Lightrun actions are added each time the services run.
