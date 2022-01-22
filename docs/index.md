@@ -43,4 +43,3 @@ You can apply multiple tags to your Lightrun agents, then use the tags to:
     Associate the Lightrun actions you want to add with a tag: This ensures that the relevant Lightrun actions are added each time the services run.
 
     If you were to add the actions to an agent, they would be deleted each time the agent disconnects from the server.
-
