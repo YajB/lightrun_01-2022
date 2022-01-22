@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Lightrun entities
+# Overview of Lightrun entities
 
-You can use the [editor on GitHub](https://github.com/YajB/lightrun_01-2022/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+A Lightrun action is a snapshot, dynamic log, or metric that you add to specific lines within the source code for your application to capture instantaneous parameter values when your code executes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+When you add an action, that triggers a request to the agent. 
+After the agent verifies the request, it adds the relevant instrumentation to the application without interrupting services.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Lightrun agents
 
-```markdown
-Syntax highlighted code block
+You can configure and use Lightrun agents to add specific Lightrun actions to your application, without having to apply hotfixes, restart, or redeploy any of the applications or components in your environment: The agent runs as an additional thread alongside your applications. 
 
-# Header 1
-## Header 2
-### Header 3
+The following Lightrun agents are available for your environment: 
+- Java agent
+- Python agent
+- Node.js agent
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Lightrun tags
 
-**Bold** and _Italic_ and `Code` text
+Lightrun tags are used to group agents together into logical categories, usually based on common functionality.
+Use tags to group your agents by region, environment, purpose, or by any criteria that are relevant for your organization. 
 
-[Link](url) and ![Image](src)
-```
+When you apply multiple tags, you can associate actions with an agent before it launches
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Lightrun action and tag properties
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YajB/lightrun_01-2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Actions that are added to an agent are deleted once the agent disconnects from the Lightrun server. 
+In contrast to this behavior, actions that are added to tags are persistent. 
 
-### Support or Contact
+### Use cases for tags
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You can apply multiple tags to your Lightrun agents, then use the tags to:
+* Label and filter agents in your integated development environment (IDE) or command line interface (CLI).
+* Associate Lightrun actions to a group of agents labeled with a specific tag.
+* Consistently apply a Lightrun action to a group of short-lived agents. 
+  
+**Example** 
+For your AWS Lambda function services that run code for specific triggering events, to ensure that the relevant Lightrun actions are added each time the services run, associate these actions with a tag, rather than associating the actions with agents. 
+
+If you add the actions to an agent, they're going to be deleted each time the agent disconnects from the server.
+
