@@ -37,6 +37,7 @@ Lightrun tags are used to group agents together into logical categories, usually
 
 You can use tags to group your agents by region, environment, purpose, or by any criteria that are relevant for your organization. The default tag for a Lightrun agent is `Production`.
 
+
 When you apply multiple tags, you can associate actions with an agent _before_ it launches, and you can apply actions to multiple applications wherever they are running. 
 
 The agents that are associated with a specific tag also inherit the actions associated with that tag.
@@ -52,6 +53,7 @@ You can apply multiple tags to your Lightrun agents, then use tags to:
   When you apply multiple tags, you can associate actions with an agent _before_ it launches, and you can apply actions to multiple applications regardless of where they are running. 
 
   The agents that are associated with a specific tag also inherit the actions associated with that tag.
+
 
 - **Label and filter agents in your code**
   Refine which agents are displayed in your integated development environment (IDE) or command line interface (CLI).
