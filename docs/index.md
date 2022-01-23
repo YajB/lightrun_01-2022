@@ -43,3 +43,10 @@ You can apply multiple tags to your Lightrun agents, then use the tags to:
     Associate the Lightrun actions you want to add with a tag: This ensures that the relevant Lightrun actions are added each time the services run.
 
     If you were to add the actions to an agent, they would be deleted each time the agent disconnects from the server.
+
+    <!--  
+     
+    For example, you can use tags to identify the location and purpose of each agent: database servers, staging, QA, and so on. You can apply multiple tags to each agent, in any combination. Similarly, adding a single tag to multiple deployments of the same application allows you to add a log action to all of the instances at once.
+
+    By applying multiple tags, you can bind actions to an agent even before the agent is launched, and you can apply actions to multiple applications regardless of where they are running. Once an action is bound to a tag, it is implicitly added to all agents that possess that tag.
+   -->
